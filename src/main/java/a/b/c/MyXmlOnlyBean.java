@@ -6,4 +6,8 @@ package a.b.c;
  * *
  */
 public class MyXmlOnlyBean {
+    @Override
+    public String toString() {
+        return "MyXmlOnlyBean{}";
+    }
 }

@@ -4,5 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="myBeanXmlOnly1" class="a.b.c.MyXmlOnlyBean"/>
     <bean id="myBeanXmlOnly2" class="a.b.c.MyXmlOnlyBean"/>
-    <bean id="myBeanXml" class="a.b.c.MyBean"/>
+    <bean id="myBeanXml" class="a.b.c.MyBean">
+        <property name="id" value="myBeanFromXML"/>
+    </bean>
 </beans>

@@ -7,4 +7,21 @@ package a.b.c;
  * *
  */
 public class MyBean {
+
+    private String id;
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    @Override
+    public String toString() {
+        return "MyBean{" +
+               "id='" + id + '\'' +
+               '}';
+    }
 }
